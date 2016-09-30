@@ -135,10 +135,8 @@ hspd = 0
 if (!UKey) and (!DKey) or (UKey) and (DKey){
 vspd = 0
 }
-
- 
- /*
- {
+/*
+if global.IsThereCollision = false {
 //pixel perfect collision horizontal
 if place_meeting(x+(hspd*2),y,obj_Player) 
 {
@@ -148,8 +146,15 @@ x += sign(hspd*2)
 }
 hspd = 0
 x+=0
+global.CanMoveRight = false
+global.WallCanMove = false
+global.IsThereCollision = true
 }
-
+else
+{
+global.CanMoveRight=true
+global.WallCanMove = true
+}
 }
 */
 // give him the power to move left and right
