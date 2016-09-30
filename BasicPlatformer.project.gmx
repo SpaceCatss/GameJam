@@ -15,7 +15,8 @@
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\PlayerCollision</object>
-    <object>objects\obj_Wall</object>
+    <object>objects\obj_WallLeft</object>
+    <object>objects\obj_WallRight</object>
     <object>objects\Camera</object>
     <object>objects\obj_Control</object>
   </objects>

@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>global.WallCanMove = true
 global.WallCanMoveRight = true
+global.WallCanMoveDown = true
+global.WallCanMoveUp = true
 spd = 10
 jspd = 10
 grav = 0.5
@@ -69,7 +71,20 @@ else
 var LKey = 0
 }
 
+if global.WallCanMoveUp = true{
 var UKey = keyboard_check(ord('W'))
+}
+else
+{
+var UKey = 0
+}
+if global.WallCanMoveDown = true{
+var DKey = keyboard_check(ord('S'))
+}
+else
+{
+var DKey = 0
+}
 //var DKey = keyboard_check(vk_down)
 
 
@@ -79,16 +94,18 @@ var UKey = keyboard_check(ord('W'))
 if place_meeting(x,y+1,obj_Player)
 {
 vspd = 0
-//jumping
+//jumping */
 if (UKey)
 {
 vspd =-jspd
 }
-}else{
-if vspd &lt;10 {
-vspd += grav}
+
+
+if (DKey)
+{
+vspd =jspd
 }
-*/
+
 
 
 //move right
@@ -109,6 +126,11 @@ hspd =-spd
 // stop
 if (!RKey) and (!LKey) or (LKey) and (RKey){
 hspd = 0
+}
+
+// stop verti
+if (!UKey) and (!DKey) or (UKey) and (DKey){
+vspd = 0
 }
 /*
 if global.IsThereCollision = false {
@@ -135,7 +157,7 @@ global.WallCanMove = true
 // give him the power to move left and right
 x += hspd
 
-
+/*
 //pixel perfect collision vertical
 if place_meeting(x,y+vspd*2,PlayerCollision)
 {
@@ -146,7 +168,7 @@ y += sign(vspd*2)
 vspd = 0
 obj_Player.vspd = 0
 }
-
+*/
 // give him the power to move up and down
 y += vspd
 
