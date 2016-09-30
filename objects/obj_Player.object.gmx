@@ -25,13 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spd = 3
+            <string>spd = 10
 jspd = 10
 grav = 0.5
 hspd = 0
 vspd = 0
 global.CanMove = true
 global.CanMoveRight = true
+global.CanMoveUp = true
 </string>
           </argument>
         </arguments>
@@ -54,7 +55,15 @@ global.CanMoveRight = true
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>if global.CanMoveUp = true
+{
+var UKey = keyboard_check(vk_up)
+}
+else
+{
+var UKey = 0
+}
+
 if global.CanMoveRight = true{
 var RKey = keyboard_check(vk_right)
 }
@@ -62,7 +71,7 @@ else
 {
 var RKey = 0
 }
-var UKey = keyboard_check(vk_up)
+
 
 if global.CanMove = true
 {
@@ -154,7 +163,14 @@ while !place_meeting(x, y+sign(vspd*2),obj_Wall)
 y += sign(vspd*2)
 }
 vspd = 0
+global.CanMoveUp = false
+global.WallCanMoveDown = false
 obj_WallLeft.vspd = 0
+}
+else
+{
+global.CanMoveUp = true
+global.WallCanMoveDown = true
 }
 
 if place_meeting(x,y+(vspd*2),obj_Wall)

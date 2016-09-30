@@ -23,7 +23,6 @@
     <object>objects\obj_Control</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0ref</room>
     <room>rooms\room1</room>
   </rooms>
   <help>
