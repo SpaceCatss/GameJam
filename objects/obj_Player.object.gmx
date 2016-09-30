@@ -210,7 +210,26 @@ y += vspd
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// sprawdzam jak sie pushuje zmiany, gdy nie jest sie mna :)
+            <string>if place_meeting(x+(hspd),y,Wall)
+{
+while !place_meeting(x+sign(hspd),y,Wall)
+{
+x += sign(hspd)
+}
+hspd = 0
+
+}
+
+
+if place_meeting(x, y + (vspd), Wall)
+{
+while !place_meeting(x,y+sign(vspd),Wall)
+{
+y += sign(vspd)
+}
+vspd = 0
+
+}
 </string>
           </argument>
         </arguments>

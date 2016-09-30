@@ -15,6 +15,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
+    <object>objects\Wall</object>
     <object>objects\PlayerCollision</object>
     <object>objects\obj_WallLeft</object>
     <object>objects\obj_Wall</object>
