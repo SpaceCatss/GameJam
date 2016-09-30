@@ -79,7 +79,7 @@ var LKey = 0
 if place_meeting(x,y+1,obj_Wall)
 {
 vspd = 0
-y = instance_nearest(x,y,obj_Wall).y-32
+y = instance_nearest(x,y+32,obj_Wall).y-32
 //jumping
 if (UKey)
 {
