@@ -21,7 +21,7 @@
     <object>objects\obj_Control</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1reference</room>
+    <room>rooms\room1benchmark</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
