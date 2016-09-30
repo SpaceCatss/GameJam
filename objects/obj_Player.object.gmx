@@ -30,6 +30,8 @@ jspd = 10
 grav = 0.5
 hspd = 0
 vspd = 0
+global.CanMove = true
+global.CanMoveRight = true
 </string>
           </argument>
         </arguments>
@@ -52,10 +54,27 @@ vspd = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var UKey = keyboard_check(vk_up)
+            <string>
+if global.CanMoveRight = true{
+var RKey = keyboard_check(vk_right)
+}
+else
+{
+var RKey = 0
+}
+var UKey = keyboard_check(vk_up)
+
+if global.CanMove = true
+{
 //var DKey = keyboard_check(vk_down)
 var LKey = keyboard_check(vk_left)
-var RKey = keyboard_check(vk_right)
+
+}
+else
+{
+//var DKey = keyboard_check(vk_down)
+var LKey = 0
+}
 
 if place_meeting(x,y+1,obj_Wall)
 {
@@ -87,26 +106,35 @@ hspd = 0
 }
 
 //pixel perfect collision horizontal
-if place_meeting(x+hspd,y,obj_Wall)
+if place_meeting(x+(hspd*2),y,obj_Wall)
 {
-while !place_meeting(x+sign(hspd),y,obj_Wall)
+while !place_meeting(x+sign(hspd*2),y,obj_Wall)
 {
-x += sign(hspd)
+x += sign(hspd*2)
 }
 hspd = 0
+global.CanMoveRight = false
+global.WallCanMove = false
+obj_Wall.hspd = 0
+}
+else
+{
+global.CanMoveRight = true
+global.WallCanMove = true
 }
 
 // give him the power to move left and right
 x += hspd
 
 //pixel perfect collision vertical
-if place_meeting(x,y+vspd,obj_Wall)
+if place_meeting(x,y+(vspd*2),obj_Wall)
 {
-while !place_meeting(x, y+sign(vspd),obj_Wall)
+while !place_meeting(x, y+sign(vspd*2),obj_Wall)
 {
-y += sign(vspd)
+y += sign(vspd*2)
 }
 vspd = 0
+obj_Wall.hspd = 0
 }
 
 // give him the power to move up and down
