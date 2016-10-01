@@ -28,18 +28,13 @@
             <string>r = irandom_range(1,2)
 {
 if r= 1
-
 {instance_create(x-320,y-320,Airplane)
-instance_destroy()
-przemiana()
-}
+instance_destroy()}
 
 if r = 2
 {
-
 instance_create(x, y-200,LifeAdd)
 instance_destroy()
-przemiana()
 }
 
 }
