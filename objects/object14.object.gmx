@@ -36,7 +36,7 @@ global.WallCanMoveDown = true
 global.WallCanMoveUp = true
 
 
-spdNormal = 3
+spdNormal = 10
 spdZero = 0
 spd = spdNormal
 jspd = 10

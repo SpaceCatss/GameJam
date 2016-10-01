@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>12632256</colour>
+  <colour>0</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>0</enableViews>
@@ -57,12 +57,12 @@
     <instance objName="Wall" x="448" y="-64" name="inst_00CBC5A5" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="1984" y="352" name="inst_CF659EA2" locked="0" code="" scaleX="1" scaleY="32" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="288" y="1142" name="inst_A590ACA2" locked="0" code="" scaleX="64" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obstacle" x="800" y="288" name="inst_EEE852D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obstacle" x="896" y="384" name="inst_EEE852D2" locked="0" code="" scaleX="0.600000023841858" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
     <instance objName="obj_Control" x="192" y="96" name="inst_46713F2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TajskiCyc" x="1248" y="160" name="inst_A2B8F992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Tupolev" x="704" y="96" name="inst_CE29B075" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Tupolev" x="960" y="96" name="inst_17BD5D2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Tupolev" x="832" y="96" name="inst_2E08BFFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="TajskiCyc" x="576" y="160" name="inst_A2B8F992" locked="0" code="" scaleX="0.600000023841858" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
+    <instance objName="Tupolev" x="704" y="96" name="inst_CE29B075" locked="0" code="" scaleX="0.699999988079071" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
+    <instance objName="Tupolev" x="960" y="96" name="inst_17BD5D2E" locked="0" code="" scaleX="0.699999988079071" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
+    <instance objName="Tupolev" x="800" y="416" name="inst_2E08BFFA" locked="0" code="" scaleX="0.699999988079071" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
     <instance objName="TimerA" x="288" y="96" name="inst_D242FD76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="CatCastle" x="96" y="96" name="inst_9EF8291A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WallPlatform" x="160" y="864" name="inst_3FEFE640" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
