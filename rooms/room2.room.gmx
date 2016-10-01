@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="background1" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -55,16 +55,16 @@
     <instance objName="object15" x="1120" y="384" name="inst_566ED528" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="-64" y="288" name="inst_3F322C3C" locked="0" code="" scaleX="1" scaleY="64" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="448" y="-64" name="inst_00CBC5A5" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="1600" y="352" name="inst_CF659EA2" locked="0" code="" scaleX="1" scaleY="32" colour="4294967295" rotation="0"/>
+    <instance objName="Wall" x="1412" y="352" name="inst_CF659EA2" locked="0" code="" scaleX="1" scaleY="32" colour="4294967295" rotation="0"/>
     <instance objName="Wall" x="352" y="832" name="inst_A590ACA2" locked="0" code="" scaleX="64" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obstacle" x="896" y="384" name="inst_EEE852D2" locked="0" code="" scaleX="0.600000023841858" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
     <instance objName="obj_Control" x="192" y="96" name="inst_46713F2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TajskiCyc" x="576" y="160" name="inst_A2B8F992" locked="0" code="" scaleX="0.600000023841858" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
+    <instance objName="TajskiCyc" x="960" y="544" name="inst_A2B8F992" locked="0" code="" scaleX="0.600000023841858" scaleY="0.600000023841858" colour="4294967295" rotation="0"/>
     <instance objName="Tupolev" x="704" y="96" name="inst_CE29B075" locked="0" code="" scaleX="0.699999988079071" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
     <instance objName="Tupolev" x="960" y="96" name="inst_17BD5D2E" locked="0" code="" scaleX="0.699999988079071" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
     <instance objName="Tupolev" x="800" y="416" name="inst_2E08BFFA" locked="0" code="" scaleX="0.699999988079071" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
     <instance objName="TimerA" x="288" y="96" name="inst_D242FD76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="CatCastle" x="96" y="96" name="inst_9EF8291A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="CatCastle" x="544" y="416" name="inst_9EF8291A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WallPlatform" x="192" y="384" name="inst_3FEFE640" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="fire" x="672" y="790" name="inst_06D7A46C" locked="0" code="" scaleX="25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="FireParticle" x="320" y="768" name="inst_1A8856F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

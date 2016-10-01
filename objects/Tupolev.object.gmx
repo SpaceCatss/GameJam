@@ -50,6 +50,7 @@ image_yscale=0.7
           <argument>
             <kind>1</kind>
             <string>global.TupUp += 1
+gwiazdki()
 instance_change(empty,true)
 </string>
           </argument>
