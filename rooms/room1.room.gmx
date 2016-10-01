@@ -82,6 +82,10 @@
     <instance objName="WallRight" x="1952" y="96" name="inst_8B16AA38" locked="0" code="" scaleX="1" scaleY="32" colour="4294967295" rotation="0"/>
     <instance objName="WallUp" x="352" y="-32" name="inst_B9392FA1" locked="0" code="" scaleX="64" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="WallDown" x="64" y="1110" name="inst_62E76F4C" locked="0" code="" scaleX="64" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall2" x="256" y="288" name="inst_05418BAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall2" x="448" y="448" name="inst_7394B891" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall3" x="448" y="384" name="inst_432C8F15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall4" x="480" y="160" name="inst_65B777A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
