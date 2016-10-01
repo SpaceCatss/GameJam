@@ -25,9 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_xscale = 0.4
-image_yscale = 0.4
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -49,7 +47,7 @@ image_yscale = 0.4
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>move_towards_point(object15.x,object15.y,6)
+            <string>move_towards_point(object15.x,object15.y,9)
 </string>
           </argument>
         </arguments>
