@@ -16,6 +16,7 @@
     <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\spr_plansza2</sprite>
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite6</sprite>
@@ -63,6 +64,7 @@
     <object>objects\Wall</object>
     <object>objects\WallPlatform</object>
     <object>objects\Tupolev</object>
+    <object>objects\obj_plansza2_new</object>
     <object>objects\WallLeft</object>
     <object>objects\WallRight</object>
     <object>objects\WallUp</object>
@@ -95,14 +97,16 @@
     <object>objects\CatCastle</object>
     <object>objects\Airplane</object>
     <object>objects\FireParticle</object>
+    <object>objects\obj_plansza2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
-    <room>rooms\room5</room>
     <room>rooms\room1</room>
     <room>rooms\dialog33</room>
     <room>rooms\room_gameover</room>
     <room>rooms\room_win</room>
+    <room>rooms\room1111111</room>
+    <room>rooms\room222222</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
