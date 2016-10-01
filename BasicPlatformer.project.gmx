@@ -4,8 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0_w_tle_1_</sound>
+  </sounds>
   <sprites name="sprites">
+    <sprite>sprites\sprite50_tajski_cycek</sprite>
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\dyndl_0</sprite>
     <sprite>sprites\dyndl</sprite>
@@ -17,6 +20,7 @@
     <sprite>sprites\dialogbox_0</sprite>
     <sprite>sprites\sprite1</sprite>
     <sprite>sprites\dyndl2_0</sprite>
+    <sprite>sprites\sprite48_make_tits_not_war_splaszczone</sprite>
     <sprite>sprites\dyndl2</sprite>
     <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite5</sprite>
@@ -49,6 +53,8 @@
     <sprite>sprites\Hexagram_01</sprite>
     <sprite>sprites\Head_02</sprite>
     <sprite>sprites\sprite41_Alik2</sprite>
+    <sprite>sprites\sprite47_tajski_cycek</sprite>
+    <sprite>sprites\Star_09</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -65,6 +71,7 @@
     <script>scripts\gwiazdki.gml</script>
     <script>scripts\przemiana.gml</script>
     <script>scripts\zmmm.gml</script>
+    <script>scripts\bumprezes.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>

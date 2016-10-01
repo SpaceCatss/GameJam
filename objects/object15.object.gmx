@@ -33,6 +33,7 @@ vspd = 0
 global.CanMove = true
 global.CanMoveRight = true
 global.CanMoveUp = true
+bumprezes()
 </string>
           </argument>
         </arguments>
