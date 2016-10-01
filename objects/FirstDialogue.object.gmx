@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,10 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.IsThereCollision = false
-global.VisitedCastle = false
-global.TupUp =0
-global.life= 3
+            <string>//instance_create(view_xview[0],view_yview[0],shadow)
+switcher = 0
+global.endsequence = false
+global.CharacterNumber = 1
+global.CharacterSide = true /*right*/
+txt = "Od tego zaczynamy dialog. Teraz sprawdzimy, czy jak nasramy duzo tekstu to wszyskto sie ladnie przeniesie"
+dialog_master(txt,1,200,x,y)
+
 </string>
           </argument>
         </arguments>
@@ -51,41 +55,63 @@ global.life= 3
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.life &lt; 1
+            <string>if mouse_check_button_released(mb_left)
 {
-room_goto(room_gameover)
+switcher += 1
+mouse_clear(mb_left)
+
+var txt
+switch(switcher)
+{
+case 0: txt = "This one starts sequence (not visible)" ;break;
+
+//
+case 1: txt = "Hahahahha" ;
+global.CharacterSide = false;
+global.CharacterNumber = 4
+with (obj_dialog)
+{
 instance_destroy()
+}
+;break;
+
+//
+case 2: txt = "Duuh" ;
+global.CharacterSide = true ;
+global.CharacterNumber = 2
+with (obj_dialog)
+{
+instance_destroy()
+}
+;break;
+
+//
+case 3: txt = "This one exits sequence (not visible)" global.endsequence = true ;
+global.CanClick = true
+with (obj_dialog)
+{
+instance_destroy()
+}
+;break;
 }
 
-if global.TupUp = 3 and global.VisitedCastle = true
+
+dialog_master(txt,1,200,x,y);
+
+
+if global.endsequence = true
 {
-room_goto(room_win)
+//with (shadow) { instance_destroy()}
+instance_destroy()
+with (obj_dialog)
+{
 instance_destroy()
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_text(view_xview[0]+60,view_yview[0]+60,string(global.life))
-draw_text(view_xview[0]+900,view_yview[0]+60,string(global.TupUp))
+room_goto(room2)
+}
+}
+
+
 </string>
           </argument>
         </arguments>

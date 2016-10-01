@@ -51,21 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="object14" x="480" y="320" name="inst_BABEE910" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object15" x="544" y="384" name="inst_566ED528" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="128" y="288" name="inst_3F322C3C" locked="0" code="" scaleX="1" scaleY="64" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="448" y="32" name="inst_00CBC5A5" locked="0" code="" scaleX="32" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="800" y="224" name="inst_CF659EA2" locked="0" code="" scaleX="1" scaleY="32" colour="4294967295" rotation="0"/>
-    <instance objName="Wall" x="320" y="672" name="inst_A590ACA2" locked="0" code="" scaleX="64" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Obstacle" x="384" y="512" name="inst_EEE852D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Control" x="192" y="96" name="inst_46713F2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Merkel" x="224" y="512" name="inst_7D6216C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TajskiCyc" x="480" y="416" name="inst_A2B8F992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Tupolev" x="544" y="320" name="inst_CE29B075" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Tupolev" x="448" y="320" name="inst_17BD5D2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Tupolev" x="544" y="224" name="inst_2E08BFFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="TimerA" x="288" y="96" name="inst_D242FD76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="CatCastle" x="640" y="224" name="inst_9EF8291A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="GameOver" x="416" y="256" name="inst_2496F287" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

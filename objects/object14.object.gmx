@@ -143,16 +143,7 @@ vspd = 0
 
  {
 //pixel perfect collision horizontal
-if place_meeting(x+(hspd*2),y,object15) 
-{
-while !place_meeting(x+sign(hspd*2),y,object15)
-{
-x += sign(hspd*2)
-}
-hspd = 0
-}
 
-}
 if place_meeting(x+(hspd),y,Wall)
 {
 while !place_meeting(x+sign(hspd),y,Wall)
@@ -162,6 +153,30 @@ x += sign(hspd)
 hspd = 0
 
 }
+if place_meeting(x+(hspd),y,Obstacle)
+{
+while !place_meeting(x+sign(hspd),y,Obstacle)
+{
+x += sign(hspd)
+}
+hspd = 0
+
+}
+
+if place_meeting(x+(hspd*2),y,object15) 
+{
+while !place_meeting(x+sign(hspd*2),y,object15)
+{
+x += sign(hspd*2)
+
+}
+//hspd = 0
+object15.x += hspd
+//object_set_parent
+}
+
+}
+
 
 
 // give him the power to move left and right
@@ -169,22 +184,34 @@ x += hspd
 
 
 //pixel perfect collision vertical
+
+if place_meeting(x,y+(vspd),Wall) 
+{
+while !place_meeting(x,y+sign(vspd),Wall)
+{
+y += sign(vspd)
+}
+vspd = 0
+
+}
+if place_meeting(x,y+(vspd),Obstacle) 
+{
+while !place_meeting(x,y+sign(vspd),Obstacle)
+{
+y += sign(vspd)
+}
+vspd = 0
+
+}
+
 if place_meeting(x,y+vspd*2,object15)
 {
 while !place_meeting(x, y+sign(vspd*2),object15)
 {
 y += sign(vspd*2)
 }
-vspd = 0
-
-}
-if place_meeting(x,y+(vspd),Wall)
-{
-while !place_meeting(x,y+sign(hspd),Wall)
-{
-y += sign(vspd)
-}
-vspd = 0
+object15.y += vspd
+//vspd = 0
 
 }
 

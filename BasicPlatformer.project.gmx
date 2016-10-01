@@ -7,20 +7,37 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\dyndl_0</sprite>
+    <sprite>sprites\dyndl</sprite>
+    <sprite>sprites\dialogbox_0</sprite>
     <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\dyndl2_0</sprite>
+    <sprite>sprites\dyndl2</sprite>
+    <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\dialog_master.gml</script>
+    <script>scripts\draw_text_outline.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_Player</object>
     <object>objects\object15</object>
     <object>objects\object14</object>
     <object>objects\Wall</object>
+    <object>objects\Tupolev</object>
     <object>objects\WallLeft</object>
     <object>objects\WallRight</object>
     <object>objects\WallUp</object>
@@ -33,10 +50,26 @@
     <object>objects\obj_WallRight</object>
     <object>objects\Camera</object>
     <object>objects\obj_Control</object>
+    <object>objects\Obstacle</object>
+    <object>objects\ObstacleSuprise</object>
+    <object>objects\Merkel</object>
+    <object>objects\GameOver</object>
+    <object>objects\cyc</object>
+    <object>objects\TajskiCyc</object>
+    <object>objects\LifeAdd</object>
+    <object>objects\empty</object>
+    <object>objects\object25</object>
+    <object>objects\obj_dialog</object>
+    <object>objects\FirstDialogue</object>
+    <object>objects\TimerA</object>
+    <object>objects\CatCastle</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\dialog33</room>
     <room>rooms\room2</room>
     <room>rooms\room1</room>
+    <room>rooms\room_gameover</room>
+    <room>rooms\room_win</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
