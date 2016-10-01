@@ -29,6 +29,7 @@
 global.VisitedCastle = false
 global.TupUp =0
 global.life= 3
+audio_play_sound(sound0_w_tle_1_,1,true)
 </string>
           </argument>
         </arguments>
