@@ -89,8 +89,8 @@
     <object>objects\Airplane</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room1111111</room>
     <room>rooms\room2</room>
-    <room>rooms\room1</room>
     <room>rooms\dialog33</room>
     <room>rooms\room_gameover</room>
     <room>rooms\room_win</room>
