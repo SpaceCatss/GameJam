@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>Wall</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -47,7 +47,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// sprawdzam jak sie pushuje zmiany, gdy nie jest sie mna :)
+            <string>
+
+if place_meeting(x,y-(obj_WallUp.vspd),obj_WallUp)
+{
+while !place_meeting(x,y-sign(obj_WallUp.vspd),obj_WallUp)
+{
+y -= sign(obj_WallUp.vspd)
+}
+global.WallCanMoveUp = false
+}
+else
+{
+global.WallCanMoveUp = true
+}
 </string>
           </argument>
         </arguments>

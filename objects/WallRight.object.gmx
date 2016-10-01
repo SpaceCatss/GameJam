@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>Wall</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -47,7 +47,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// sprawdzam jak sie pushuje zmiany, gdy nie jest sie mna :)
+            <string>
+
+if place_meeting(x+(obj_WallRight.hspd),y,obj_WallRight)
+{
+while !place_meeting(x+sign(obj_WallRight.hspd),y,obj_WallRight)
+{
+x += sign(obj_WallRight.hspd)
+}
+global.WallCanMoveRight = false
+}
 </string>
           </argument>
         </arguments>

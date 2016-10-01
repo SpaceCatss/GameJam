@@ -8,22 +8,34 @@
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\sprite6</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_Player</object>
+    <object>objects\object15</object>
+    <object>objects\object14</object>
     <object>objects\Wall</object>
+    <object>objects\WallLeft</object>
+    <object>objects\WallRight</object>
+    <object>objects\WallUp</object>
+    <object>objects\WallDown</object>
     <object>objects\PlayerCollision</object>
     <object>objects\obj_WallLeft</object>
+    <object>objects\obj_WallDown</object>
+    <object>objects\obj_WallUp</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_WallRight</object>
     <object>objects\Camera</object>
     <object>objects\obj_Control</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room2</room>
     <room>rooms\room1</room>
   </rooms>
   <help>
