@@ -22,6 +22,20 @@
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprite9</sprite>
     <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\quack</sprite>
+    <sprite>sprites\miniquack</sprite>
+    <sprite>sprites\Merkela</sprite>
+    <sprite>sprites\miniMerkela</sprite>
+    <sprite>sprites\hearti</sprite>
+    <sprite>sprites\sprite21</sprite>
+    <sprite>sprites\sprite22</sprite>
+    <sprite>sprites\sprite23</sprite>
+    <sprite>sprites\sprite24</sprite>
+    <sprite>sprites\sprite25</sprite>
+    <sprite>sprites\sprite26</sprite>
+    <sprite>sprites\sprite27</sprite>
+    <sprite>sprites\sprite28</sprite>
+    <sprite>sprites\sprite29</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -37,6 +51,7 @@
     <object>objects\object15</object>
     <object>objects\object14</object>
     <object>objects\Wall</object>
+    <object>objects\WallPlatform</object>
     <object>objects\Tupolev</object>
     <object>objects\WallLeft</object>
     <object>objects\WallRight</object>
@@ -47,10 +62,14 @@
     <object>objects\obj_WallDown</object>
     <object>objects\obj_WallUp</object>
     <object>objects\obj_Wall</object>
+    <object>objects\obj_Wall2</object>
+    <object>objects\obj_Wall3</object>
+    <object>objects\obj_Wall4</object>
     <object>objects\obj_WallRight</object>
     <object>objects\Camera</object>
     <object>objects\obj_Control</object>
     <object>objects\Obstacle</object>
+    <object>objects\object30</object>
     <object>objects\ObstacleSuprise</object>
     <object>objects\Merkel</object>
     <object>objects\GameOver</object>
@@ -63,11 +82,12 @@
     <object>objects\FirstDialogue</object>
     <object>objects\TimerA</object>
     <object>objects\CatCastle</object>
+    <object>objects\Airplane</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\dialog33</room>
-    <room>rooms\room2</room>
     <room>rooms\room1</room>
+    <room>rooms\room2</room>
+    <room>rooms\dialog33</room>
     <room>rooms\room_gameover</room>
     <room>rooms\room_win</room>
   </rooms>

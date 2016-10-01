@@ -126,10 +126,10 @@ x+(max_lenght/2)-(box_width/2),
 y+1)
 
 if global.CharacterNumber = 1
-{draw_sprite_ext(sprite7,0,x+(max_lenght/2)+100,y-10,-1,1,0,c_white,alpha)}
+{draw_sprite_ext(quack,0,x+(max_lenght/2)+100,y-10,-1,1,0,c_white,alpha)}
 
 if global.CharacterNumber = 2
-{draw_sprite_ext(sprite7,0,x+(max_lenght/2)+100,y-10,-1,1,0,c_white,alpha)}
+{draw_sprite_ext(Merkela,0,x+(max_lenght/2)+100,y-10,-1,1,0,c_white,alpha)}
 
 if global.CharacterNumber = 3
 {draw_sprite_ext(sprite7,0,x+(max_lenght/2)+100,y-10,-1,1,0,c_white,alpha)}
@@ -165,10 +165,10 @@ draw_roundrect(x-(max_lenght/2),y,x-(max_lenght/2)+box_width,y+box_height,1)
 draw_sprite(dyndl2,0,x-(max_lenght/2)+(box_width/2),y+1)
 
 if global.CharacterNumber = 1
-{draw_sprite_ext(sprite7,0,x-(max_lenght/2)-100,y-10,1,1,0,c_white,alpha)}
+{draw_sprite_ext(quack,0,x-(max_lenght/2)-100,y-10,1,1,0,c_white,alpha)}
 
 if global.CharacterNumber = 2
-{draw_sprite_ext(sprite10,0,x-(max_lenght/2)-100,y-10,1,1,0,c_white,alpha)}
+{draw_sprite_ext(Merkela,0,x-(max_lenght/2)-100,y-10,1,1,0,c_white,alpha)}
 
 if global.CharacterNumber = 3
 {draw_sprite_ext(sprite7,0,x-(max_lenght/2)-100,y-10,1,1,0,c_white,alpha)}

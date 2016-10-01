@@ -68,7 +68,7 @@ case 0: txt = "This one starts sequence (not visible)" ;break;
 //
 case 1: txt = "Hahahahha" ;
 global.CharacterSide = false;
-global.CharacterNumber = 4
+global.CharacterNumber = 2
 with (obj_dialog)
 {
 instance_destroy()
@@ -78,7 +78,7 @@ instance_destroy()
 //
 case 2: txt = "Duuh" ;
 global.CharacterSide = true ;
-global.CharacterNumber = 2
+global.CharacterNumber = 1
 with (obj_dialog)
 {
 instance_destroy()
