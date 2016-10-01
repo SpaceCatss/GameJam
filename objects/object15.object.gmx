@@ -86,7 +86,6 @@ var LKey = 0
 }
 
 if place_meeting(x,y+1,object14)
-
 {
 //vspd = 0
 //vspd = object14.vspd
@@ -95,8 +94,6 @@ if place_meeting(x,y+1,object14)
 if (UKey)
 {
 vspd =-jspd
-
-
 }
 }else{
 if vspd &lt;10 {
@@ -107,21 +104,16 @@ vspd += grav}
 if (RKey)
 {
 hspd = spd
-image_xscale = 1
-sprite_index = sprite45_Jajos_aw_splaszczony_chodzi4
 }
 // move left
 if (LKey)
 {
 hspd =-spd
-image_xscale = -1
-sprite_index = sprite45_Jajos_aw_splaszczony_chodzi4
 }
 
 // stop
 if (!RKey) and (!LKey) or (LKey) and (RKey){
 hspd = 0
-sprite_index = sprite30
 }
 
 //pixel perfect collision horizontal
@@ -136,7 +128,7 @@ hspd = 0
 }
 else
 {
-sprite_index=sprite46_Jajos_aw_splaszczony_skacze1
+
 }
 if place_meeting(x+(hspd),y,Wall)
 {

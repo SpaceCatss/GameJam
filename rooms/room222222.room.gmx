@@ -64,7 +64,6 @@
     <instance objName="Tupolev" x="896" y="192" name="inst_5CCCF35D" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
     <instance objName="Tupolev" x="576" y="192" name="inst_3626F99D" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
     <instance objName="Tupolev" x="320" y="192" name="inst_704FD2FA" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_semibox" x="64" y="192" name="inst_F3D18CF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
