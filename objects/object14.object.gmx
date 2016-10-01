@@ -153,6 +153,16 @@ hspd = 0
 }
 
 }
+if place_meeting(x+(hspd),y,Wall)
+{
+while !place_meeting(x+sign(hspd),y,Wall)
+{
+x += sign(hspd)
+}
+hspd = 0
+
+}
+
 
 // give him the power to move left and right
 x += hspd
@@ -164,6 +174,15 @@ if place_meeting(x,y+vspd*2,object15)
 while !place_meeting(x, y+sign(vspd*2),object15)
 {
 y += sign(vspd*2)
+}
+vspd = 0
+
+}
+if place_meeting(x,y+(vspd),Wall)
+{
+while !place_meeting(x,y+sign(hspd),Wall)
+{
+y += sign(vspd)
 }
 vspd = 0
 
