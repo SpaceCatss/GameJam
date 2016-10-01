@@ -40,12 +40,18 @@
     <sprite>sprites\sprite28</sprite>
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\sprite33</sprite>
+    <sprite>sprites\Hexagram_01</sprite>
+    <sprite>sprites\Head_02</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\dialog_master.gml</script>
     <script>scripts\draw_text_outline.gml</script>
+    <script>scripts\scr_particlefire.gml</script>
+    <script>scripts\angpart.gml</script>
+    <script>scripts\fireeee.gml</script>
+    <script>scripts\death_particle.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -73,6 +79,7 @@
     <object>objects\Camera</object>
     <object>objects\obj_Control</object>
     <object>objects\Obstacle</object>
+    <object>objects\fire</object>
     <object>objects\object30</object>
     <object>objects\ObstacleSuprise</object>
     <object>objects\Merkel</object>
@@ -87,6 +94,7 @@
     <object>objects\TimerA</object>
     <object>objects\CatCastle</object>
     <object>objects\Airplane</object>
+    <object>objects\FireParticle</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>

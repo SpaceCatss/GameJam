@@ -51,6 +51,7 @@
 global.life -=1
 with object15{
 instance_destroy()}
+death_particle()
 instance_change(empty,true)
 room_restart()
 }
