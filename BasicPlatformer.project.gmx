@@ -40,6 +40,7 @@
     <sprite>sprites\sprite28</sprite>
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\sprite33</sprite>
+    <sprite>sprites\spr_plansza2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -54,6 +55,7 @@
     <object>objects\obj_Player</object>
     <object>objects\object15</object>
     <object>objects\object14</object>
+    <object>objects\obj_plansza2</object>
     <object>objects\Wall</object>
     <object>objects\WallPlatform</object>
     <object>objects\Tupolev</object>
@@ -89,6 +91,7 @@
     <object>objects\Airplane</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room222222</room>
     <room>rooms\room1111111</room>
     <room>rooms\room2</room>
     <room>rooms\dialog33</room>
